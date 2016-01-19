@@ -1,0 +1,161 @@
+* { margin: 0; padding: 0;}
+
+header, body, footer {
+    margin: auto;
+}
+
+header{ 
+    width: 800px;
+    height: 250px;
+}
+
+body{
+    width: 800px;
+    font-family: 'Muli', sans-serif;
+    line-height: 23px;
+    background-color:#F7F7F7;
+    color: #000000;
+}
+
+nav{
+    font-size: 13px;
+    font-weight: 300;
+    margin-bottom: 20px;
+}
+
+a{
+    color: #000000;
+    text-decoration: none;
+}
+a:hover{
+    color: #9E9E9E;
+}
+
+li{
+    color: #9E9E9E;
+}
+
+section{
+    width:150px;
+    margin-top: 90px; 
+    padding-left: 90px;
+}
+
+#logoMargin{
+    margin: 0;
+    padding: 0;
+    position:fixed;
+    margin-left:-180px;
+    margin-top: 100px;
+}
+
+.center{
+    margin-left: 280px;
+    
+}
+
+div{
+    float: left;
+}
+
+h1, h2, h3{
+    font-family: 'Roboto', sans-serif;
+    font-weight: 900;
+}
+
+h1{
+    margin-left: -17px;
+    margin-bottom: 10px;
+    font-size: 14px;
+    letter-spacing: 2px;
+}
+
+h2{
+    font-weight: 800;
+    width: 800px;
+    font-size: 18px;
+    margin-bottom:0; 
+}
+
+h3{
+    font-weight: 300;
+    font-size: 14px;
+    margin-bottom: 5px;
+}
+
+p{
+    padding-right: 330px;
+    font-size: 15px;
+    font-weight: 300;
+    margin-bottom: 20px;
+}
+
+em{
+    font-style: normal;
+    font-weight: 600;
+}
+
+
+
+footer{
+    position: fixed;
+    width: 800px;
+    text-align: center;
+    bottom: 0px;
+    background-color: #333333;
+    padding-top: 20px;
+}
+
+footer nav a{
+    color:white;
+    font-family: 'Roboto', sans-serif;
+    font-weight: 600;
+    letter-spacing: 2px;
+    font-size: 15px;
+}
+
+/*id*/
+#col1{
+    float: left;
+}
+
+#col2{
+    float: left;
+}
+
+#page_title{
+    font-size: 12px;
+    letter-spacing: 2px;
+    line-height: normal;
+    width: 800px;
+    margin-top: 30px;
+}
+
+#no_shift{
+    margin:0;
+    padding:0;
+}
+
+.blog{
+    background-image: url("");
+    background-repeat: no-repeat;
+    background-position: 320px 340px;
+    background-attachment: fixed;
+}
+
+.home_head{
+    background-image: url(images/banner.png);
+}
+
+.blog_head{
+    background-image: url(images/banner_blog.png);
+}
+
+.img-float{
+    float: left;
+    
+}
+
+.margin-bottom{
+    margin-bottom: 100px;
+}
