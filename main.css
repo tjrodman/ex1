@@ -89,6 +89,7 @@ h3{
 
 h6 {
     visibility: hidden;
+    position: absolute;
 }
 
 p{
