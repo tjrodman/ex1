@@ -9,6 +9,17 @@ header{
     height: 250px;
 }
 
+/*for need finding*/
+header#txt p{
+    width: 800px;
+    font-size: 80px;
+    text-align: center;
+    padding-top: 100px;
+    font-family:  'Roboto', sans-serif;
+    font-weight: 800;
+}
+/*end of need finding*/
+
 body{
     width: 800px;
     font-family: 'Muli', sans-serif;
@@ -38,6 +49,18 @@ a:hover{
 li{
     color: #9E9E9E;
 }
+
+/*for need finding*/
+ol#need {
+    width: 800px;
+    margin:auto;
+    padding-left: 140px;
+}
+
+ol#need li{
+        color: black;
+}
+/*end needfinding*/
 
 section{
     width:200px;
