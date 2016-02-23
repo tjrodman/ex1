@@ -198,3 +198,7 @@ section#sass {
     margin-left: 130px;
     margin-bottom: 90px;
 }
+
+object {
+    margin-left: -40px;
+}

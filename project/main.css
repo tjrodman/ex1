@@ -1,0 +1,151 @@
+* {
+    margin: 0;
+    padding: 0;
+}
+
+header,
+body,
+footer {
+    margin: auto;
+}
+
+header {
+    width: 800px;
+    height: 100px;
+    position: relative;
+}
+
+header h1 {
+    width: 800px;
+    font-size: 40px;
+    text-align: center;
+    position: absolute;
+    top: 40%;
+    font-family: 'Roboto', sans-serif;
+    font-weight: 800;
+}
+
+body {
+    width: 800px;
+    font-family: 'Muli', sans-serif;
+    line-height: 23px;
+    background-color: #4AE8E0;
+    color: #000000;
+}
+
+body#needFindingBackground {
+    background-color: #D7FAF8;
+}
+
+section.bodyText {
+    width: 500px;
+}
+
+section.images {
+    text-align: center;
+}
+
+img {
+    margin-bottom: 80px;
+}
+
+nav {
+    font-size: 13px;
+    font-weight: 300;
+    margin-bottom: 20px;
+}
+
+a {
+    color: #000000;
+    text-decoration: none;
+}
+
+a.bottomSpace {
+    margin-left: 30px;
+}
+
+a:hover,
+li {
+    color: #9E9E9E;
+}
+
+section {
+    width: 800px;
+    margin: auto;
+    position: relative;
+    margin-bottom: 60px;
+}
+
+section ol#needFinding {
+    position: absolute;
+    left: 130px;
+}
+
+ol#needFinding li {
+    color: black;
+}
+
+#logoMargin {
+    margin: 0;
+    padding: 0;
+    position: fixed;
+    margin-left: -200px;
+    margin-top: 100px;
+}
+
+.center {
+    margin-left: 280px;
+}
+
+div {
+    float: left;
+}
+
+h4,
+h2,
+h3 {
+    font-family: 'Roboto', sans-serif;
+    font-weight: 900;
+}
+
+h4 {
+    margin-left: -17px;
+    margin-bottom: 10px;
+    font-size: 14px;
+    letter-spacing: 2px;
+}
+
+h2 {
+    font-weight: 800;
+    width: 800px;
+    font-size: 18px;
+    margin-bottom: 0;
+}
+
+p {
+    font-size: 15px;
+    font-weight: 300;
+    margin-bottom: 20px;
+}
+
+em {
+    font-style: normal;
+    font-weight: 600;
+}
+
+footer {
+    position: fixed;
+    width: 800px;
+    text-align: center;
+    bottom: 0px;
+    background-color: #333333;
+    padding-top: 20px;
+}
+
+footer nav a {
+    color: white;
+    font-family: 'Roboto', sans-serif;
+    font-weight: 600;
+    letter-spacing: 2px;
+    font-size: 15px;
+}
