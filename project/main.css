@@ -51,8 +51,12 @@ section.images {
     text-align: center;
 }
 
-img {
+img#margin {
     margin-bottom: 80px;
+}
+
+img {
+    margin-bottom: 10px;
 }
 
 nav {
