@@ -70,11 +70,8 @@ section{
 }
 
 section#logoMargin{
-    margin: 0;
-    padding: 0;
-    position:fixed;
-    margin-left:-200px;
-    margin-top: 40px;
+    position:absolute;
+   left: 20%;
 }
 
 .center{
@@ -154,7 +151,7 @@ footer nav a{
 
 #col2{
     float: left;
-    height: 500px;
+    height: 600px;
 }
 
 #page_title{
